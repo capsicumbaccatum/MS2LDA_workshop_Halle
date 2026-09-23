@@ -93,6 +93,15 @@ Note: The long (motifs_long.csv)format data table may be used for mapping on phy
 In Cytoscape import the table using File -> Import -> Table from file. <br />
 Please make sure to use "shared.name" as the mapping key for your network, and "feature_id" as the mapping key for the table. 
 
+
+<img width="1044" height="926" alt="Recording 2026-09-23 121152" src="https://github.com/user-attachments/assets/84c5b38f-cb2b-4731-b11c-a912d2f8fd59" />
+
+
+<img width="1574" height="865" alt="image" src="https://github.com/user-attachments/assets/ee519449-04f7-464e-bd62-e8ad20705a8f" />
+
+<img width="1260" height="830" alt="image" src="https://github.com/user-attachments/assets/7fb9207a-9dfa-4ba5-ba1e-e31bf126a453" />
+
+
 # Helpful links and references:
 
 **Original GitHub repository:** https://github.com/vdhooftcompmet/MS2LDA/tree/main <br />
