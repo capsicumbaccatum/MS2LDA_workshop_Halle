@@ -77,7 +77,7 @@ You need to download/clone the repository to your computer. <br />
 Follow the guide and run the script "MS2LDA_network_mappings_v1.0.py", using the consensus MGF file, and the MS2LDA output. <br />
 
 To run MS2LDA_network_mappings.py on the consensus MGF, you can use this command (please adapt paths to input and output files accordingly): <br />
-(Windows cmd)
+(Anaconda powershell prompt)
 ```
 python "path\to\MS2LDA_network_mappings_v1.0.py" --mgf "path\to\FeatureTable_Test_Course_consensus.mgf" --model "path\to\ms2lda.bin" --viz "path\to\ms2lda_viz.json.gz" --outdir "demo_results"
 ```
