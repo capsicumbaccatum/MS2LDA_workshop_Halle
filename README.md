@@ -17,7 +17,7 @@ You need to download the model prior to any analysis (see guide linked above, st
 File name: FeatureTable_Test_Course.mgf
 
 The file has been attached to the invitation email for this workshop.
-You can also download the demo dataset from this repository. Please find it in the folder: Original_feature_Table.
+You can also download the demo dataset from this repository. Please find it in the folder: Demo_feature_Table.
 This is a demo dataset for this workshop in MGF format. 
 
 **Now you have two options:**
