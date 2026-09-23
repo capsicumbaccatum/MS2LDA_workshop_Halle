@@ -80,7 +80,7 @@ python "path\to\MS2LDA_network_mappings_v1.0.py" --mgf "path\to\FeatureTable_Tes
 ```
 
 
-If the network mapping script does not work for you, you can also download the resulting files from this folder: motif_mapping_output
+If the network mapping script does not work for you (or if the allocated time is not sufficient), you can also download the resulting files from this folder: motif_mapping_output. 
 For mapping the Mass2Motifs on your network, please use the wide format data table.
 
 Note: The long format data table may be used for mapping on phylogenetic trees, or for other statistical analysis.
