@@ -14,12 +14,12 @@ You need to download the model prior to any analysis (see guide linked above, st
 ```
 
 ## Download the demo dataset (attached to the course invitation email, or available in this repository)
-**File name:** FeatureTable_Test_Course.mgf 
+**File name:** FeatureTable_Test_Course.mgf /n
 **Folder:** Original_feature_Table 
 
-The file has been attached to the invitation email for this workshop.
-You can also download the demo dataset from this repository. Please find it in the folder: Original_feature_Table.
-This is a demo dataset for this workshop in MGF format. 
+The file has been attached to the invitation email for this workshop. /n
+You can also download the demo dataset from this repository. Please find it in the folder: Original_feature_Table. /n
+This is a demo dataset for this workshop in MGF format. /n
 
 **Now you have two options:**
 
@@ -33,8 +33,8 @@ On Windows cmd
 ```
 
 2. Include Mass2Motif mapping on a molecular network: Run MS2LDA on the consensus spectra MGF of the demo dataset 
-**File name:** FeatureTable_Test_Course_consensus.mgf
-**Folder:** Original_feature_Table 
+**File name:** FeatureTable_Test_Course_consensus.mgf /n
+**Folder:** Original_feature_Table /n
 For Classical Molecular Networking (CMN), we need to use the consensus MGF file provided by GNPS2.
 You can find this consensus MGF file in this folder: Original_feature_Table.
 
