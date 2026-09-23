@@ -94,7 +94,8 @@ In Cytoscape import the table using File -> Import -> Table from file. <br />
 Please make sure to use "shared.name" as the mapping key for your network, and "feature_id" as the mapping key for the table. 
 
 
-<img width="1044" height="926" alt="Recording 2026-09-23 121152" src="https://github.com/user-attachments/assets/84c5b38f-cb2b-4731-b11c-a912d2f8fd59" />
+<img width="1188" height="870" alt="Recording 2026-09-23 121152" src="https://github.com/user-attachments/assets/96891455-121c-44f0-8349-8d480e4c8a3a" />
+
 
 
 <img width="1574" height="865" alt="image" src="https://github.com/user-attachments/assets/ee519449-04f7-464e-bd62-e8ad20705a8f" />
