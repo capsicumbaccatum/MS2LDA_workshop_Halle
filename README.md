@@ -14,10 +14,11 @@ You need to download the model prior to any analysis (see guide linked above, st
 ```
 
 ## Download the demo dataset (attached to the course invitation email, or available in this repository)
-File name: FeatureTable_Test_Course.mgf
+**File name:** FeatureTable_Test_Course.mgf 
+**Folder:** Original_feature_Table 
 
 The file has been attached to the invitation email for this workshop.
-You can also download the demo dataset from this repository. Please find it in the folder: Demo_feature_Table.
+You can also download the demo dataset from this repository. Please find it in the folder: Original_feature_Table.
 This is a demo dataset for this workshop in MGF format. 
 
 **Now you have two options:**
@@ -31,9 +32,11 @@ On Windows cmd
 ./run_analysis.sh --dataset "path\to\FeatureTable_Test_Course.mgf" --n-motifs 200 --n-iterations 1000 --output-folder "path\to\output_folder_demo"
 ```
 
-2. Include Mass2Motif mapping on a molecular network: Run MS2LDA on the consensus spectra MGF of the demo dataset (FeatureTable_Test_Course_consensus.mgf)
+2. Include Mass2Motif mapping on a molecular network: Run MS2LDA on the consensus spectra MGF of the demo dataset 
+**File name:** FeatureTable_Test_Course_consensus.mgf
+**Folder:** Original_feature_Table 
 For Classical Molecular Networking (CMN), we need to use the consensus MGF file provided by GNPS2.
-You can find this consensus MGF file in this folder: GNPS2_files.
+You can find this consensus MGF file in this folder: Original_feature_Table.
 
 If you want to map the motifs on the GNPS2 network, you'll need to run MS2LDA (again) on the consensus MGF file. 
 It is not necessary to run MS2LDA on both files (FeatureTable_Test_Course.mgf **and** FeatureTable_Test_Course_consensus.mgf), but just on the latter consensus MGF file to proceed with the mapping on the molecular network. Please note that the results and especially the feature IDs will not be exactly the same.
@@ -57,7 +60,7 @@ Of course, please feel free to run the Classical molecular Networking workflow o
 Please be aware that you need an account to run the workflow, and that you will need to upload the MGF file first. 
 You can then download the consensus spectra MGF file from the task website once the workflow has completed. Important: It is necessary to change the field "SCANS" to "FEATURE_ID" in the consensus spectra MGF file you download from GNPS. 
 
-You can find the CMN graphml file also in this folder: GNPS2_files.
+You can find the CMN graphml file also in this folder: Cytoscape_network.
 Please load this file into Cytoscape using: File -> Import -> Network from File 
 You can then adapt the layout and style to your convenience.
 
@@ -81,9 +84,9 @@ python "path\to\MS2LDA_network_mappings_v1.0.py" --mgf "path\to\FeatureTable_Tes
 
 
 If the network mapping script does not work for you (or if the allocated time is not sufficient), you can also download the resulting files from this folder: motif_mapping_output. 
-For mapping the Mass2Motifs on your network, please use the wide format data table.
+For mapping the Mass2Motifs on your network, please use the wide format data table (motifs_wide.csv).
 
-Note: The long format data table may be used for mapping on phylogenetic trees, or for other statistical analysis.
+Note: The long (motifs_long.csv)format data table may be used for mapping on phylogenetic trees, or for other statistical analysis.
 
 # Map the wide format CSV table on the network in Cytoscape
 
