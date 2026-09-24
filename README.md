@@ -1,6 +1,7 @@
 # MS2LDA_workshop_Halle
 Workshop material for the MS2LDA workshop on September 29, 2026 at the IPB in Halle (Germany)
 
+
 # Get started
 
 ## Install MS2LDA
@@ -109,3 +110,26 @@ Please make sure to use "shared.name" as the mapping key for your network, and "
 **MS2LDA network mapping GitHub repository:** https://github.com/capsicumbaccatum/MS2LDA_Molecular_network_mapping <br />
 
 **MS2LDA tutorials on YouTube:** https://www.youtube.com/playlist?list=PLCFXpjU30dmHm1ypoEnWnZ1vcJhR4awPo
+
+# Complete workflow in short
+
+Once you have Python and Anaconda (or Miniconda) installed, you can copy-paste these commands into you Anaconda Powershell Prompt:
+
+```
+conda create -n "ms2lda_halle" python=3.11.7 --yes
+conda activate ms2lda_halle
+mkdir Ms2LDA_workshop
+cd Ms2LDA_workshop
+conda install git
+git clone https://github.com/capsicumbaccatum/MS2LDA_workshop_Halle.git
+git clone https://github.com/vdhooftcompmet/MS2LDA.git
+cd MS2LDA
+pip install -e .
+.\run_analysis.bat --only-download
+.\run_analysis.bat --dataset "..\MS2LDA_workshop_Halle\Original_feature_Table\FeatureTable_Test_Course_consensus_MGF.mgf" --n-motifs 200 --n-iterations 1000 --output-folder "..\MS2LDA_workshop_Halle\MS2LDA_output"
+cd ..\
+git clone https://github.com/capsicumbaccatum/MS2LDA_Molecular_network_mapping.git
+cd MS2LDA_Molecular_network_mapping
+python Code\MS2LDA_network_mappings_v1.0.py --mgf Demo\FeatureTable_Test_Course_consensus_MGF.mgf --model Demo\ms2lda.bin --viz Demo\ms2lda_viz.json --outdir Demo\Output --threshold 0.002
+```
+
